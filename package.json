@@ -1,0 +1,19 @@
+{
+  "name": "conta_bancaria",
+  "version": "1.0.0",
+  "description": "Projeto de conta bancária - compilação TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^5.9.3"
+  }
+}
